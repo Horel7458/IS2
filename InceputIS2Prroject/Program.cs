@@ -1,9 +1,10 @@
-﻿namespace InceputIS2Prroject;
+﻿using F23.StringSimilarity;
+namespace InceputIS2Prroject;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("The similarity is (0)",new Cosine().Similarity("Hello, World!", "Hello, class!"));
     }
 }
